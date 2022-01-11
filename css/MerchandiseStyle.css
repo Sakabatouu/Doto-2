@@ -1,0 +1,187 @@
+* {
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.TextBar,
+.SecTextBar {
+    padding: 15px;
+    font-size: 25px;
+    color: #EC9A29;
+}
+
+#Navigation {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0e2831;
+}
+
+#FirstNavi,
+#SecNavi {
+    display: flex;
+    align-items: center;
+    padding-left: 2vw;
+}
+
+.TextBar:hover,
+.SecTextBar:hover {
+    color: #0F8B8D;
+}
+
+#Tab-merchant {
+    background-image: url("../assets/backgorund-merchan.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100vw;
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+    opacity: 90%;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.content-merchant {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #0e2831;
+    width: 85vw;
+    height: 50vh;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+.tab1 {
+    background-image: url("../assets/Google_Play-Logo.wine.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20vw;
+    height: 25vh;
+}
+
+.tab2 {
+    background-image: url("../assets/Steam-Logo.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20vw;
+    height: 25vh;
+    margin: 1.5vw 1vw;
+}
+
+.tab3 {
+    background-image: url("../assets/nintendoeshop_640x241.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20vw;
+    height: 25vh;
+    margin: 1.5vw 1vw;
+}
+
+.tab4 {
+    background-image: url("../assets/Steam-Logo.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20vw;
+    height: 25vh;
+    margin: 1.5vw 1vw;
+}
+
+.firstcontet-tab {
+    display: flex;
+    justify-content: space-around;
+}
+
+.firstcontet {
+    padding-top: 10px;
+    text-align: center;
+    border-radius: 20px;
+    width: 30vw;
+    background-color: #0F8B8D;
+}
+
+.tab5 {
+    background-image: url("../assets/Google_Play-Logo.wine.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20vw;
+    height: 25vh;
+    background-color: #0e2831;
+}
+
+.tab6 {
+    background-image: url("../assets/Steam-Logo.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20vw;
+    height: 25vh;
+    margin: 1.5vw 1vw;
+    background-color: #0e2831;
+}
+
+.tab7 {
+    background-image: url("../assets/nintendoeshop_640x241.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20vw;
+    height: 20vh;
+    margin: 1.5vw 1vw;
+    background-color: #0e2831;
+}
+
+.tab8 {
+    background-image: url("../assets/Steam-Logo.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20vw;
+    height: 25vh;
+    margin: 1.5vw 1vw;
+    background-color: #0e2831;
+}
+
+.seccontent-merchant {
+    display: flex;
+    justify-content: space-around;
+}
+
+#Footer {
+    background-color: #0e2831;
+}
+
+.imageFoot {
+    display: flex;
+    justify-content: center;
+    width: 25vw;
+    height: 15vh;
+}
+
+#FirstFoot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+}
+
+#TextFoot {
+    width: 30vw;
+    text-align: center;
+    font-size: 15px;
+}
+
+#SecFoot {
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 20px;
+    color: #EC9A29;
+}

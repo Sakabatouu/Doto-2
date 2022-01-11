@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doto2</title>
+    <link rel="shortcut icon" href="../assets/LogoDoto2.png">
+    <link rel="stylesheet" href="../css/styleIndex.css">
+    <script src="../js/jquery-3.5.1.js"></script>
+</head>
+
+<body>
+    <div id="Navigation">
+        <div id="FirstNavi">
+            <div id="img-logo">
+                <a href="Index.html"><img src="../assets/LogoDoto2.png" width="75px" alt=""></a>
+            </div>
+
+            <div class="TextBar">
+                <a href="heroes.html">Heroes</a>
+            </div>
+            <div class="TextBar">
+                <a href="GameMechanics.html">Game Mechanics</a>
+            </div>
+            <div class="TextBar">
+                <a href="Merchandise.html">Merchandise</a>
+            </div>
+        </div>
+        <div id="SecNavi">
+            <div class="SecTextBar">
+                <div id="Login">
+                    <a href="Register.html">Login</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="Header">
+        <div id="imageHead1">
+            <div>
+                <div id="TextHead-Img1">
+                    <div id="Headertext1">
+                        Defend your land from evil.
+                    </div>
+                    <div id="Headertext2">
+                        Strike them down with your allies.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="imageHead2">
+            <div>
+                <div id="TextHead-Img2">
+                    <div id="textTitle">
+                        <div id="Headertext3">
+                            No experience in war?
+                        </div>
+                        <div id="Headertext4">
+                            Come practice in the camp.
+                        </div>
+                    </div>
+
+                    <div id="btnImg2">
+                        <a href="GameMechanics.html">Get Basic Training</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="imageHead3">
+            <div>
+                <div id="TextHead-Img3">
+                    <div id="Headertext5">
+                        Dive into the field of glory.
+                    </div>
+                    <div id="Headertext6">
+                        Check out our Pantheon to see who fits you best.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="imageHead4">
+            <div>
+                <div id="TextHead-Img4">
+                    <div id="textTitle2">
+                        <div id="Headertext7">
+                            No experience in war?
+                        </div>
+                        <div id="Headertext8">
+                            Come practice in the camp.
+                        </div>
+                    </div>
+                    <div id="btnImg4">
+                        <a href="heroes.html">Check Hero Gallery</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id=lastsection>
+        <h1 id="textinlastsection">Here is some picture of Doto 2 Game</h1>
+        <div id="slidersection">
+            <div id="imageslider">
+                <div id="contentImageSlider">
+                    <img src="../assets/Shadow_Fiend_DOTA_2_Wallpaper_Fondo_Loading_screen_2.jpg" class="imagesliding">
+                    <img src="../assets/jugger.jpg" class="imagesliding">
+                    <img src="../assets/dota-2-gameplay-ebetfinder-resized.jpg" class="imagesliding">
+                </div>
+            </div>
+        </div>
+        <div>
+            <button id="nextbtn">Next Picture</button>
+            <button id="prevbtn">Prev Picture</button>
+        </div>
+    </div>
+
+    <div id="Footer"><br>
+        <div id="FirstFoot">
+            <div class="imageFoot">
+                <img src="../assets/LogoDoto2.png" width="120px" alt="">
+            </div>
+        </div>
+        <div id="SecFoot">
+            <div id="TextFoot">
+                Doto and the Doto Logo aren’t probably trademarks and/or registered trademarks of Sink Corporation. 2021
+                Sink Corporation, all rights reserved.
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let inputnext = $('#nextbtn')
+        let inputprev = $('#prevbtn')
+        let inputslider = $('#contentImageSlider')
+
+        let position = 0;
+
+        inputslider.css({
+            top: position + '%'
+        })
+
+        inputnext.on('click', () => {
+            if (position < 200) {
+                position += 100;
+            } else {
+                position = 0;
+            }
+            inputslider.css({
+                top: -position + '%'
+            })
+        })
+
+        inputprev.on('click', () => {
+            if (position > 0) {
+                position -= 100;
+            } else {
+                position = 200;
+            }
+            inputslider.css({
+                top: -position + '%'
+            })
+        })
+    </script>
+</body>
+
+</html>

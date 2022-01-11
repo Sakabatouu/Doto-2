@@ -1,0 +1,227 @@
+* {
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.TextBar,
+.SecTextBar {
+    padding: 15px;
+    font-size: 25px;
+    color: #EC9A29;
+}
+
+#Navigation {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0e2831;
+}
+
+#FirstNavi,
+#SecNavi {
+    display: flex;
+    align-items: center;
+    padding-left: 2vw;
+}
+
+.TextBar:hover,
+.SecTextBar:hover {
+    color: #0F8B8D;
+}
+
+.img-content {
+    background-image: url("../assets/contentHero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 110vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-left: 3vw;
+}
+
+.tab-content {
+    width: 70vw;
+    height: 15vh;
+    background-color: gray;
+    box-shadow: 10px 10px rgb(39, 38, 38);
+    border-radius: 1vw;
+    text-align: center;
+    font-size: 2vw;
+    padding-top: 1.5vw;
+}
+
+.tab-content1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tab-content2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+    height: 80vh;
+    background-color: gray;
+    border-radius: 0.5vw;
+    font-size: 1.8vw;
+    padding: 1.5vw 1.5vw 0vw;
+    font-weight: bold;
+}
+
+.sub-img {
+    background-image: url("../assets/sub-content2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50vw;
+    height: 42vh;
+}
+
+.hero {
+    background-image: url("../assets/Hero-wineranged.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 45vw;
+    height: 85vh;
+}
+
+.view {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(53, 51, 51);
+    cursor: pointer;
+}
+
+.Hero-view1 {
+    background-image: url("../assets/juggerHero.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 15vw;
+    height: 20vh;
+    margin: 1vw;
+    filter: grayscale(1) contrast(1);
+}
+
+.Hero-view1:hover {
+    filter: none;
+}
+
+.Hero-view2 {
+    background-image: url("../assets/slarkHero.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 15vw;
+    height: 20vh;
+    margin: 1vw;
+    filter: grayscale(1) contrast(1);
+}
+
+.Hero-view2:hover {
+    filter: none;
+}
+
+.Hero-view3 {
+    background-image: url("../assets/KnightHero.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 15vw;
+    height: 20vh;
+    margin: 1vw;
+    filter: grayscale(1) contrast(1);
+}
+
+.Hero-view3:hover {
+    filter: none;
+}
+
+.Hero-view4 {
+    background-image: url("../assets/fiendHero.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 15vw;
+    height: 20vh;
+    margin: 1vw;
+    filter: grayscale(1) contrast(1);
+}
+
+.Hero-view4:hover {
+    filter: none;
+}
+
+.Hero-view5 {
+    background-image: url("../assets/WindHero.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 15vw;
+    height: 20vh;
+    margin: 1vw;
+
+}
+
+.Hero-view5:hover {
+    filter: grayscale(1) contrast(1);
+}
+
+.firstcarousel-skill {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.seccarousel-skill {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(53, 51, 51);
+    padding-bottom: 2vw;
+}
+
+.skill-view {
+    width: 18vw;
+    height: 85vh;
+    background-color: gray;
+    margin: 1vw;
+    border-radius: 1vw;
+    box-shadow: 10px 10px black;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+#Footer {
+    background-color: #0e2831;
+}
+
+.imageFoot {
+    display: flex;
+    justify-content: center;
+    width: 25vw;
+    height: 15vh;
+}
+
+#FirstFoot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+}
+
+#TextFoot {
+    width: 30vw;
+    text-align: center;
+    font-size: 15px;
+}
+
+#SecFoot {
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 20px;
+    color: #EC9A29;
+}

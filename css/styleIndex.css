@@ -1,0 +1,275 @@
+* {
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.TextBar,
+.SecTextBar {
+    padding: 15px;
+    font-size: 25px;
+    color: #EC9A29;
+}
+
+#Navigation {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0e2831;
+}
+
+#FirstNavi,
+#SecNavi {
+    display: flex;
+    align-items: center;
+    padding-left: 2vw;
+}
+
+.TextBar:hover,
+.SecTextBar:hover {
+    color: #0F8B8D;
+}
+
+
+#imageHead1 {
+    background-image: url("../assets/tabhome1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#TextHead-Img1 {
+    text-align: right;
+    padding: 0px 30px 40px 0px;
+    font-size: 50px;
+    color: white;
+}
+
+#Headertext1,
+#Headertext2 {
+    transition: 2s;
+}
+
+#Headertext1 {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+#imageHead2 {
+    background-image: url("../assets/tabhome2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+#btnImg2 {
+    font-weight: bold;
+    width: 30vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border-radius: 10px;
+    background-color: rgb(199, 152, 33);
+    opacity: 80%;
+    box-shadow: 2px 3px grey;
+}
+
+#TextHead-Img2 {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding: 0px 30px 40px 0px;
+    width: 95vw;
+    color: white;
+    font-size: 50px;
+}
+
+#Headertext3 {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+#imageHead3 {
+    background-image: url("../assets/tabhome3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#TextHead-Img3 {
+    text-align: right;
+    padding: 0px 30px 40px 0px;
+    font-size: 50px;
+    color: white;
+}
+
+#Headertext5 {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+#btnImg4 {
+    font-weight: bold;
+    width: 30vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border-radius: 10px;
+    background-color: rgb(199, 152, 33);
+    opacity: 80%;
+    box-shadow: 2px 3px grey;
+}
+
+#imageHead4 {
+    background-image: url("../assets/tabhome4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+#TextHead-Img4 {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding: 0px 30px 40px 0px;
+    width: 95vw;
+    color: white;
+    font-size: 50px;
+}
+
+#Headertext7 {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+
+#Footer {
+    background-color: #0e2831;
+}
+
+.imageFoot {
+    display: flex;
+    justify-content: center;
+    width: 25vw;
+    height: 15vh;
+}
+
+#FirstFoot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+}
+
+#TextFoot {
+    width: 30vw;
+    text-align: center;
+    font-size: 15px;
+}
+
+#SecFoot {
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 20px;
+    color: #EC9A29;
+}
+
+#Form {
+    background-image: url("../assets/tabhome1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100vw;
+    height: 105vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 70%;
+}
+
+
+#FirstForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 25px;
+    font-weight: bold;
+    width: 20vw;
+    height: 75vh;
+}
+
+#FormAct {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    width: 25vw;
+    height: 80vh;
+    background-color: whitesmoke;
+}
+
+#lastsection {
+    width: 100vw;
+    height: 75vh;
+    display: flex;
+    background-color: #121212;
+    flex-direction: column;
+    align-items: center;
+}
+
+#textinlastsection {
+    margin: 1vw 1vh;
+    color: white;
+}
+
+#slidersection {
+    display: flex;
+    transition: 500ms;
+}
+
+#imageslider {
+    overflow: hidden;
+    width: 50vw;
+    height: 50vh;
+}
+
+#contentImageSlider {
+    position: relative;
+    transition: 500ms;
+}
+
+.imagesliding {
+    width: 50vw;
+    height: 50vh;
+}
+
+#nextbtn,
+#prevbtn {
+    font-size: medium;
+    font-weight: bolder;
+    color: #EC9A29;
+    background-color: #0F8B8D;
+    padding: 1%;
+}
